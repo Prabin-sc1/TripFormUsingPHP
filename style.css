@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+.container{
+	/* opacity: 0.7; */
+	max-height: 100%;
+	padding: 34px;
+	margin: auto;	
+	font-size: 20px;
+	/* color:rgb(33, 8, 172); */
+
+	
+	/* font-family: 'Baumans', cursive; */
+}
+.container h3,p{
+	text-align: center;
+}
+.welcome{
+	color:rgb(33, 8, 172);
+	font-style:italic;
+}
+.container h3{
+	/* margin-top: 100px; */
+	color: rgb(135, 16, 40);
+	font-size: 35px;
+	/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+
+input, textarea{
+	border: 2px solid black;
+	border-radius: 7px;
+	outline: none;
+	width: 80%;
+	margin: 9px auto;
+	padding:  7px;
+	font-size: 17px;
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.btn{
+	color: white;
+	background-color:rgb(135, 16, 40);;
+	padding: 7px 10px;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.pu{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 1;
+	height: 100%;
+}
+.submitMsg{
+	font-size: 25px;
+	color: green;
+}
+/* INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `programme`,
+ `email`, `phone`, `other`, `dt`) VALUES ('1', 'abc', '21', 'male', 'software', 'abc@gmail.com', '1597538521', 'Hello', current_timestamp())); */
+ input{
+	 opacity: 0.6;
+	 color:black;
+ }
+
+ textarea{
+	opacity: 0.9;
+	color:black;
+
+ }
